@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #09cffc;
+    height: 100%;
+    cursor: crosshair;
+    margin: 0;
+    overflow: hidden;
+}
+
+.score {
+    font-size: 2em;
+    user-select: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#duck {
+position: absolute;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    user-select: none;
+}
+
+#dog {
+    position: absolute;
+    height: 80px;
+    bottom: 70px;
+    left: 700px;
+    user-select: none;
+}
+
+#tree {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    z-index: 2;
+    user-select: none;
+}
